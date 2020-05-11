@@ -1,0 +1,77 @@
+/*------------------------------------*\
+    VARS
+\*------------------------------------*/
+
+// HTML LAYOUT
+// ____________________________________
+
+$html_header: 100px;
+
+
+// COLOR PALETTE
+// ____________________________________
+
+$black:            #000 !default;
+$white:            #fff !default;
+$col_1:            #F08700 !default;
+$col_2:            #F49F0A !default;
+$col_3:            #EFCA08 !default;
+$col_4:            #00A6A6 !default;
+$col_5:            #BBDEF0 !default;
+$dark:             #002164 !default;
+$facebook:         #2C4484 !default;
+$google:           #3677F5 !default;
+$greytext:         #9B9B9B !default;
+
+$palette: (
+  "_black":        $black,
+  "_white":        $white,
+  "col_1":         $col_1,
+  "col_2":         $col_2,
+  "col_3":         $col_3,
+  "col_4":         $col_4,
+  "col_5":         $col_5,
+  "dark":          $dark,
+  "facebook":      $facebook,
+  "google":        $google,
+  "greytext":      $greytext
+);
+
+
+// FONT SIZES
+// ____________________________________
+$regular: 14px;
+$small: 10px;
+$big: 20px;
+
+$fontsizes: (
+  "regular":      $regular,
+  "small":        $small,
+  "big":          $big
+);
+
+
+// PADDINGS
+// ____________________________________
+
+$padding_regular: 14px;
+$padding_small: 10px;
+$padding_big: 20px;
+
+$paddings: (
+  "regular":      $padding_regular,
+  "small":        $padding_small,
+  "big":          $padding_big
+);
+
+// LETTER-SPACING
+// ____________________________________
+
+$letter_spacing: 0px;
+
+
+// BREAKPOINTS
+// ____________________________________
+
+$breakpoint_mobile: 380px;
+$breakpoint_tablet: 1024px;
