@@ -5,7 +5,7 @@ const autoprefixer = require('autoprefixer')
 const webpack = require('webpack')
 const MinifyPlugin = require('babel-minify-webpack-plugin')
 const SimpleProgressWebpackPlugin = require( 'simple-progress-webpack-plugin' )
-var HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
+// var HardSourceWebpackPlugin = require('hard-source-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -44,7 +44,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract({
               fallback: 'style-loader',
               use: 'css-loader?-autoprefixer!postcss-loader!sass-loader',
-          }),
+        })
       },
       {
         test: /\.(ttf|eot|woff|woff2)$/,
@@ -88,7 +88,7 @@ module.exports = {
     new BrowserSyncPlugin({
         host: 'localhost',
         port: 3000,
-        proxy: 'https://broomx.local/',
+        proxy: 'https://eren.dev/',
         files: [
                 {
                     match: [
@@ -111,11 +111,11 @@ module.exports = {
       $: "jquery",
       jQuery: "jquery"
     }),
-    new HtmlWebpackPlugin({  // Also generate a test.html
+      new HtmlWebpackPlugin({  // Also generate a test.html
       filename: 'header.php',
       template: 'templates/global/header.php',
       hash: true
     }),
-    new HardSourceWebpackPlugin()
+    // new HardSourceWebpackPlugin()
   ]
 };
