@@ -52,7 +52,7 @@ function get_current_template() {
 
 // Function to change email address
 function wpb_sender_email( $original_email_address ) {
-    return 'no-replyh@herraizsoto.com';
+    return 'no-replyh@hodiern.com';
 }
 add_filter( 'wp_mail_from', 'wpb_sender_email' );
 

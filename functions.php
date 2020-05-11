@@ -1,7 +1,7 @@
 <?php
 /*
- *  Author: herraizsoto&co.
- *  URL: http://herraizsoto.com/
+ *  Author: Pere Esteve Ràfols
+ *  URL: http://hodiern.com/
  *  Custom functions, support, custom post types and more.
  */
 
